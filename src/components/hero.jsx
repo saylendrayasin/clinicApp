@@ -3,8 +3,8 @@ import Mask from "../img/Mask.png";
 
 const hero = () => {
   return (
-    <div className="container mt-10 md:mt-20 flex flex-col justify-between px-6 py-6 sm:px-16 sm:py-10 sm:flex-col lg:flex-row">
-      <div className="lg:basis-2/5">
+    <div className="container mt-10 flex flex-col lg:flex-row px-6 py-6 sm:px-16 sm:py-10">
+      <div className="lg:basis-2/5 lg:mt-14">
         <h1 className="font-bold text-3xl md:text-4xl lg:text-6xl mb-6">
           Medical Clinic Name
         </h1>
@@ -16,7 +16,7 @@ const hero = () => {
         <img
           src={Mask}
           alt="logo"
-          className="w-80 h-80 md:w-80 md:h-80 lg:w-96 lg:h-96 flex lg:absolute lg:right-44"
+          className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 flex lg:absolute lg:right-44"
         />
       </div>
     </div>

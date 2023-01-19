@@ -5,7 +5,7 @@ import Wrapper from "../components/wrapper-header";
 
 const home = () => {
   return (
-    <div>
+    <div className=" flex flex-col lg:h-screen">
       <Wrapper />
       <Nav />
       <Hero />
