@@ -4,7 +4,7 @@ import OValRight from "../img/Oval1.png";
 
 const wrapper = () => {
   return (
-    <div className="container relative">
+    <div className="container relative -z-10">
       <img
         src={OvalTop}
         alt="logo"
@@ -15,8 +15,6 @@ const wrapper = () => {
         alt="logo"
         className="lg:w-[600px] md:w-[350px] w-[200px] lg:h-[800px] md:h-[500px] h-[300px] absolute right-0"
       />
-      {/* <div className="basis-1/3"></div>
-      <div className="relative basis-2/3 -z-10"></div> */}
     </div>
   );
 };

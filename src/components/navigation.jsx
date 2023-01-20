@@ -14,11 +14,11 @@ const navigation = () => {
         <li>Services</li>
         <li>Contact</li>
       </ul>
-      <div class="flex md:hidden">
-        <div class="space-y-2">
-          <span class="block w-8 h-0.5 bg-gray-600 animate-pulse"></span>
-          <span class="block w-8 h-0.5 bg-gray-600 animate-pulse"></span>
-          <span class="block w-8 h-0.5 bg-gray-600 animate-pulse"></span>
+      <div className="flex md:hidden">
+        <div className="space-y-2">
+          <span className="block w-8 h-0.5 bg-gray-600 animate-pulse"></span>
+          <span className="block w-8 h-0.5 bg-gray-600 animate-pulse"></span>
+          <span className="block w-8 h-0.5 bg-gray-600 animate-pulse"></span>
         </div>
       </div>
     </div>

@@ -24,11 +24,11 @@ const componentAbout = () => {
         <img
           src={Aboutcontent}
           alt="AboutContent"
-          className="w-[500px] h-[200px]"
+          className="lg:w-[500px] lg:h-[200px] w-[300px] h-[100px]"
         />
         <h3 className="text-2xl">
           Aliquam lobortis magna neque, gravida consequat velit venenatis at.
-          Pellentesque ac bibendum tortor, vel blandit nulla.{" "}
+          Pellentesque ac bibendum tortor, vel blandit nulla.
         </h3>
       </div>
     </div>
