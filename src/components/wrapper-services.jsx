@@ -11,7 +11,7 @@ const services = () => {
         className="w-64 h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-96 opacity-50 lg:absolute lg:left-16 lg:-top-36"
       /> */}
       <svg
-        class="absolute transform translate-y-1/4 translate-x-1 lg:translate-x-1/4 lg:-top-60"
+        className="hidden lg:absolute transform translate-y-1/4 translate-x-1 lg:translate-x-1/4 lg:-top-60"
         width="404"
         height="500"
         fill="none"
@@ -31,7 +31,7 @@ const services = () => {
               y="0"
               width="4"
               height="4"
-              class="text-gray-200"
+              className="text-gray-200"
               fill="currentColor"
             />
           </pattern>

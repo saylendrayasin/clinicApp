@@ -9,30 +9,19 @@ const contentServices = () => {
 
   const sliderContainer = useRef();
 
-  // useEffect(() => {
-  //   console.log(
-  //     sliderContainer.current.scrollWidth,
-  //     sliderContainer.current.offsetWidth,
-  //     sliderContainer.current.scrollOffset
-  //   );
-  //   SetWidth(sliderContainer.current.scrollWidth);
-  // }, []);
-
-  //make use effect for sliderContainer and sliderContainer with scroll
   useEffect(() => {
-    // console.log(sliderContainer.current.scrollWidth);
-    // SetWidth(sliderContainer.current.scrollWidth);
-
-    //make restiction for sliderContainer base on user devices screen
-    if (window.innerWidth < 768) {
-      SetWidth(sliderContainer.current.scrollWidth);
-    } else {
-      SetWidth(sliderContainer.current.scrollWidth);
-    }
+    console.log(
+      sliderContainer.current.scrollWidth,
+      sliderContainer.current.offsetWidth,
+      sliderContainer.current.scrollOffset
+    );
+    SetWidth(
+      sliderContainer.current.scrollWidth - sliderContainer.current.offsetWidth
+    );
   }, []);
 
   return (
-    <div className="flex flex-row ">
+    <div className="flex flex-col lg:flex-row ">
       <motion.div
         id="sliderContainer"
         ref={sliderContainer}
@@ -40,9 +29,9 @@ const contentServices = () => {
       >
         <motion.ul
           drag="x"
-          dragConstraints={{ left: 0, right: 1324 }}
+          dragConstraints={{ left: -Width, right: 0 }}
           id="slider"
-          className="flex flex-row-reverse w-full border border-red-500"
+          className="flex w-full "
         >
           {data.map((item) => {
             return (
