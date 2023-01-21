@@ -5,7 +5,7 @@ import Aboutcontent from "../img/AboutContent.svg";
 
 const componentAbout = () => {
   return (
-    <div className="container flex flex-col lg:flex-row ">
+    <div className="container flex flex-col lg:flex-row mt-16 lg:mt-0">
       <div className="lg:basis-1/2 flex  justify-center lg:justify-start">
         <img
           src={OvalLeft}
@@ -19,7 +19,7 @@ const componentAbout = () => {
           // className="w-48 h-48 md:w-72 md:h-72 lg:w-80 lg:h-80 lg:absolute lg:left-0 top-96"
         />
       </div>
-      <div className="lg:basis-2/3 flex justify-center flex-col px-6 py-6 md:px-16 md:py-10 lg:pr-16 lg:py-0">
+      <div className="lg:basis-2/3 flex justify-center flex-col px-6 py-6 md:px-16 md:py-10 lg:px-16 lg:py-0 mt-10 lg:mt-0">
         <h1 className="text-4xl font-bold">Kontol</h1>
         <img
           src={Aboutcontent}

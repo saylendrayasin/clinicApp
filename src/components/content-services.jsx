@@ -25,7 +25,7 @@ const contentServices = () => {
       <motion.div
         id="sliderContainer"
         ref={sliderContainer}
-        className="w-3/4 overflow-hidden z-50 cursor-grab"
+        className="w-3/4 overflow-hidden z-50 cursor-grab mt-16 lg:mt-0"
       >
         <motion.ul
           drag="x"
@@ -35,17 +35,22 @@ const contentServices = () => {
         >
           {data.map((item) => {
             return (
-              <motion.li key={item.id} className="min-w-[20rem] p-5">
+              <motion.li
+                key={item.id}
+                className="lg:min-w-[20rem] md:min-w-[20rem] min-w-[18rem] p-5 md:ml-6"
+              >
                 <div className=" bg-white rounded-lg p-5">
                   <img
-                    className="h-50 w-full object-cover rounded-md"
+                    className="h-25 md:h-30 lg:h-50 lg:w-full object-cover rounded-md"
                     src={item.image}
                     alt={item.alt}
                   />
-                  <h2 className="mt-2 text-2xl font-bold text-gray-700">
+                  <h2 className="mt-2 text-xl md:text-2xl lg:text-2xl font-bold text-gray-700">
                     {item.title}
                   </h2>
-                  <p className="mt-2 text-gray-500">{item.description}</p>
+                  <p className="mt-2 text-md md:text-lg lg:text-lg text-gray-500">
+                    {item.description}
+                  </p>
                 </div>
               </motion.li>
             );
