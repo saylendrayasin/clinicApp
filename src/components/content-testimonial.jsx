@@ -10,11 +10,6 @@ const contentTestimoni = () => {
   const sliderContainer = useRef();
 
   useEffect(() => {
-    console.log(
-      sliderContainer.current.scrollWidth,
-      sliderContainer.current.offsetWidth,
-      sliderContainer.current.scrollOffset
-    );
     SetWidth(
       sliderContainer.current.scrollWidth - sliderContainer.current.offsetWidth
     );
@@ -37,13 +32,13 @@ const contentTestimoni = () => {
             return (
               <motion.li key={item.id} className="p-5 md:ml-6 gap-20">
                 <div className="relative">
-                  <div className=" bg-yellow-500 pl-4 pr-16 pt-6 pb-10 w-72 h-72 md:w-80 md:h-80 rounded-r-full rounded-tr-full rounded-b-full flex flex-col">
+                  <div className=" bg-yellow-500 pl-4 pr-16 pt-2 lg:pt-6 pb-10 w-60 h-60 md:w-80 md:h-80 rounded-r-full rounded-tr-full rounded-b-full flex flex-col">
                     <div className="w-full overflow-y-auto scrollbar-hide basis-2/4">
                       <p className="mt-0 text-sm md:text-base lg:text-base text-gray-500">
                         {item.description}
                       </p>
                     </div>
-                    <div className="basis-1/5 w-full flex mt-4 gap-1">
+                    <div className="basis-1/5 w-full flex mt-3 lg:mt-4 lg:gap-1">
                       <span className="fa fa-star checked"></span>
                       <span className="fa fa-star checked"></span>
                       <span className="fa fa-star checked"></span>

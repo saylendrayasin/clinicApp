@@ -4,7 +4,7 @@ import OvalanRactangle from "../img/Services.svg";
 
 const services = () => {
   return (
-    <div className="container relative mt-16 lg:mt-0 ">
+    <div className="relative mt-16 lg:mt-0 ">
       {/* <img
         src={Dots}
         alt="Dots"
@@ -46,7 +46,7 @@ const services = () => {
       <img
         src={OvalanRactangle}
         alt="logo"
-        className="overflow-hidden w-48 h-72 md:w-[300px] md:h-[350px] lg:w-[500px] lg:h-[700px] absolute right-0 -top-20 md:-top-28 lg:right-0 lg:-top-64 -z-10"
+        className="overflow-hidden w-60 h-72 md:w-[300px] md:h-[350px] lg:w-[500px] lg:h-[700px] absolute right-0 -top-20 md:-top-28 lg:right-0 lg:-top-64 -z-10"
       />
     </div>
   );

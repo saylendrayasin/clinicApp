@@ -3,7 +3,7 @@ import ComponentAbout from "../components/content-about";
 
 const about = () => {
   return (
-    <div className="container">
+    <div className="">
       <ComponentAbout />
     </div>
   );

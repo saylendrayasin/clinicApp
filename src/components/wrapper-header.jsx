@@ -4,7 +4,7 @@ import OValRight from "../img/Oval1.png";
 
 const wrapper = () => {
   return (
-    <div className="container relative -z-10">
+    <div className=" relative -z-10">
       <img
         src={OvalTop}
         alt="logo"

@@ -4,7 +4,7 @@ import Content from "../components/content-services";
 
 const services = () => {
   return (
-    <div className="container">
+    <div className="">
       <Bg />
       <Content />
     </div>

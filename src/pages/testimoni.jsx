@@ -4,7 +4,7 @@ import Content from "../components/content-testimonial";
 
 const testimoni = () => {
   return (
-    <div className="container">
+    <div className="">
       <Bg />
       <Content />
     </div>
