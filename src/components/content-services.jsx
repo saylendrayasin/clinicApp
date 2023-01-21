@@ -37,7 +37,7 @@ const contentServices = () => {
             return (
               <motion.li
                 key={item.id}
-                className="lg:min-w-[20rem] md:min-w-[20rem] min-w-[18rem] p-5 md:ml-6"
+                className="lg:min-w-[24rem] md:min-w-[20rem] min-w-[18rem] p-5 md:ml-6"
               >
                 <div className=" bg-white rounded-lg p-5">
                   <img

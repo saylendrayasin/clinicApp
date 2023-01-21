@@ -46,7 +46,7 @@ const services = () => {
       <img
         src={OvalanRactangle}
         alt="logo"
-        className="overflow-hidden w-48 h-72 md:w-[300px] md:h-[350px] lg:w-[500px] lg:h-[700px] absolute right-0 -top-20 md:-top-28 lg:right-0 lg:-top-20 -z-10"
+        className="overflow-hidden w-48 h-72 md:w-[300px] md:h-[350px] lg:w-[500px] lg:h-[700px] absolute right-0 -top-20 md:-top-28 lg:right-0 lg:-top-64 -z-10"
       />
     </div>
   );
