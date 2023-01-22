@@ -4,7 +4,7 @@ import Speciality from "../img/Speciality.svg";
 const contentSpeciality = () => {
   return (
     <div className="flex flex-col lg:flex-row mt-16 lg:mt-22">
-      <div className="">
+      <div className="flex justify-center">
         <img src={Speciality} alt="Speciality" className="w-[600px]" />
       </div>
       <div className="lg:basis-2/3 flex justify-center flex-col px-6 py-6 md:px-16 md:py-10 lg:px-16 lg:py-0 mt-10 lg:mt-0 ">
@@ -16,13 +16,13 @@ const contentSpeciality = () => {
           Pellentesque ac bibendum tortor, vel blandit nulla.
         </h3>
         <div className="flex flex-row gap-6 p-2 mt-10 flex-wrap">
-          <h1 className="border-2 border-slate-400 rounded-full text-xl lg:text-2xl px-10 py-2 bg-[#03A9F4] text-white">
-            Midwife
+          <h1 className="border-2 border-slate-400 rounded-full text-xl lg:text-xl px-10 py-2 bg-[#03A9F4] text-white">
+            Orthopedy
           </h1>
-          <h1 className="border-2 border-slate-400 rounded-full text-xl lg:text-2xl px-10 py-2">
+          <h1 className="border-2 border-slate-400 rounded-full text-xl lg:text-xl px-10 py-2">
             Content
           </h1>
-          <h1 className="border-2 border-slate-400 rounded-full text-xl lg:text-2xl px-10 py-2">
+          <h1 className="border-2 border-slate-400 rounded-full text-xl lg:text-xl px-10 py-2">
             Pharmacy
           </h1>
         </div>

@@ -3,7 +3,7 @@ import Logo from "../img/Logo.png";
 
 const navigation = () => {
   return (
-    <div className="flex justify-between items-center px-6 py-6 sm:px-16 sm:py-10 z-10">
+    <div className="flex justify-between items-center px-6 py-6 md:px-16 md:py-10 z-10">
       <div className="flex justify-center gap-2 items-center ">
         <img src={Logo} alt="logos" className="w-16 h-16 sm:w-24 sm:h-24" />
         <h1 className="sm:text-3xl font-semibold">Medical</h1>

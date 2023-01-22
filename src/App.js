@@ -4,6 +4,7 @@ import About from "./pages/about";
 import Services from "./pages/services";
 import Testimoni from "./pages/testimoni";
 import Speciality from "./pages/speciality";
+import Clinic from "./pages/clinics.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <Speciality />
       <Testimoni />
+      <Clinic />
     </div>
   );
 }

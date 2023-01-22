@@ -73,7 +73,7 @@ const contentTestimoni = () => {
           })}
         </motion.ul>
       </motion.div>
-      <div className="w-1/4">World</div>
+      <div className="w-1/4"></div>
     </div>
   );
 };
