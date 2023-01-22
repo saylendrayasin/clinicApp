@@ -85,7 +85,7 @@ const contentServices = () => {
             return (
               <motion.li
                 key={item.id}
-                className="lg:min-w-[24rem] md:min-w-[20rem] min-w-[18rem] p-5 md:ml-6"
+                className="lg:min-w-[20rem] md:min-w-[28rem] min-w-[18rem] p-5 md:ml-6"
               >
                 <div className=" bg-blue-300 rounded-lg p-5">
                   <img
@@ -109,7 +109,7 @@ const contentServices = () => {
         {/* make button for next the contentSlider carousel */}
 
         <button
-          className="bg-white rounded-full p-2 shadow-lg  lg:absolute  lg:right-28 lg:bottom-0 transform -translate-y-1/2"
+          className="bg-white rounded-full p-2 shadow-lg  lg:absolute  lg:right-28 lg:-bottom-20 transform -translate-y-1/2"
           onClick={nextSlider}
         >
           <svg
@@ -130,7 +130,7 @@ const contentServices = () => {
 
         {/* make button for previous the contentSlider carousel */}
         <button
-          className="bg-white rounded-full p-2 shadow-lg   lg:absolute  lg:left-28 lg:bottom-0 transform -translate-y-1/2"
+          className="bg-white rounded-full p-2 shadow-lg   lg:absolute  lg:left-28 lg:-bottom-20 transform -translate-y-1/2"
           onClick={prevSlider}
         >
           <svg
