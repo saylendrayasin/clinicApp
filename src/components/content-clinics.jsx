@@ -20,9 +20,9 @@ const contentClinics = () => {
           </h3>
           <div className="mt-6 flex gap-4 justify-center">
             <div className="flex flex-col items-center gap-2 text-blue-400">
-              <span className="fa fa-phone text-xl  "></span>
-              <span className="fa fa-envelope text-lg"></span>
-              <span className="fa fa-map-marker text-xl"></span>
+              <i className="fa fa-phone text-xl  "></i>
+              <i className="fa fa-envelope text-lg"></i>
+              <i className="fa fa-map-marker text-xl"></i>
             </div>
             <div className="flex flex-col gap-2">
               <h3 className="text-base">+62 21 12345678</h3>
@@ -34,9 +34,9 @@ const contentClinics = () => {
           </div>
         </div>
       </div>
-      <div className="lg:basis-2/3  lg:mt-16 px-6 lg:px-10">
+      <div className="lg:basis-2/3  lg:mt-16 px-6 md:px-16 lg:px-10">
         <iframe
-          className="lg:w-full w-full lg:h-[600px] md:h-[500] h-[400] border mt-10 rounded-xl shadow-xl"
+          className="lg:w-full w-full lg:h-[750px] md:h-[650px] h-[500px] border mt-10 rounded-xl shadow-xl"
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.481134186538!2d125.0778979!3d1.4834371!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3287073d89b3f66f%3A0xe7ce8484db08096d!2sKlinik%20Bidan%20Iya!5e0!3m2!1sen!2sid!4v1674393413024!5m2!1sen!2sid"
           allowfullscreen=""
           loading="lazy"

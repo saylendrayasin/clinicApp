@@ -16,13 +16,13 @@ const contentSpeciality = () => {
           Pellentesque ac bibendum tortor, vel blandit nulla.
         </h3>
         <div className="flex flex-row gap-6 p-2 mt-10 flex-wrap">
-          <h1 className="border-2 border-slate-400 rounded-full text-xl lg:text-xl px-10 py-2 bg-[#03A9F4] text-white">
+          <h1 className="border-2 border-slate-400 rounded-full text-lg md:text-xl px-8 md:px-10 py-2 bg-primary text-white">
             Orthopedy
           </h1>
-          <h1 className="border-2 border-slate-400 rounded-full text-xl lg:text-xl px-10 py-2">
+          <h1 className="border-2 border-slate-400 rounded-full text-lg md:text-xl px-8 md:px-10 py-2">
             Content
           </h1>
-          <h1 className="border-2 border-slate-400 rounded-full text-xl lg:text-xl px-10 py-2">
+          <h1 className="border-2 border-slate-400 rounded-full text-lg md:text-xl px-8 md:px-10 py-2">
             Pharmacy
           </h1>
         </div>

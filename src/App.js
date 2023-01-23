@@ -5,6 +5,7 @@ import Services from "./pages/services";
 import Testimoni from "./pages/testimoni";
 import Speciality from "./pages/speciality";
 import Clinic from "./pages/clinics.jsx";
+import Footer from "./pages/footer.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Speciality />
       <Testimoni />
       <Clinic />
+      <Footer />
     </div>
   );
 }

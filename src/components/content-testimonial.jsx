@@ -16,7 +16,7 @@ const contentTestimoni = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row ">
+    <div className="flex flex-col lg:flex-row mt-16 lg:mt-0">
       <motion.div
         id="sliderContainer"
         ref={sliderContainer}
@@ -73,7 +73,7 @@ const contentTestimoni = () => {
           })}
         </motion.ul>
       </motion.div>
-      <div className="w-1/4"></div>
+      <div className="w-1/4">Hola</div>
     </div>
   );
 };
